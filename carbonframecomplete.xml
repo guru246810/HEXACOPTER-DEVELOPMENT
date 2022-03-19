@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/10/21||12:22:20" using="Simscape Multibody Link Version 7.0" from="SolidWorks 28.5.0"/>
+<ModelUnits mass="kilogram" length="meter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="carbonframecomplete" uid="carbonframecomplete" version="116">
+<AssemblyFile name="carbonframecomplete.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="carbonframepart-1" uid="carbonframepart-1" grounded="true" entityUid="carbonframepart*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14215410813970503 0.24582647863063217 0.38257415733114225</Translation>
+</Transform>
+</Instance>
+<Instance name="10inchprop-4" uid="10inchprop-4" entityUid="10inchprop*:*Default">
+<Transform>
+<Rotation>0.51924110181202965 0.85462780096895363 0 -0.85462780096895363 0.51924110181202965 0 0 0 1</Rotation>
+<Translation>0.051183345978948531 0.075845592740121121 0.46595764727977329</Translation>
+</Transform>
+</Instance>
+<Instance name="10inchprop-1" uid="10inchprop-1" entityUid="10inchprop*:*Default">
+<Transform>
+<Rotation>-0.63185192836394177 -0.77508911785856482 0 0.77508911785856482 -0.63185192836394177 0 0 0 1</Rotation>
+<Translation>0.33373615286725244 0.56524141009186846 0.46595764727977329</Translation>
+</Transform>
+</Instance>
+<Instance name="10inchprop-6" uid="10inchprop-6" entityUid="10inchprop*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.051183345978945971 0.56524141009186812 0.46595764727977329</Translation>
+</Transform>
+</Instance>
+<Instance name="10inchprop-2" uid="10inchprop-2" entityUid="10inchprop*:*Default">
+<Transform>
+<Rotation>0.34994530327879197 0.93677013440497459 0 -0.93677013440497459 0.34994530327879197 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.4750125563114056 0.32054350141599758 0.46595764727977329</Translation>
+</Transform>
+</Instance>
+<Instance name="10inchprop-5" uid="10inchprop-5" entityUid="10inchprop*:*Default">
+<Transform>
+<Rotation>0.44509003603055852 0.89548582335306481 0 -0.89548582335306481 0.44509003603055852 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.090093057465207724 0.32054350141599286 0.46595764727977323</Translation>
+</Transform>
+</Instance>
+<Instance name="10inchprop-3" uid="10inchprop-3" entityUid="10inchprop*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.333736152867253 0.07584559274012273 0.46595764727977323</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>carbonframepart-1</Uid>
+</InstancePath>
+<Position>0.19158204472754731 0.31941493146123617 0.098383489948631053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>10inchprop-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>carbonframepart-1</Uid>
+</InstancePath>
+<Position>0.33285844817170157 0.074717022785363851 0.098383489948631053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>10inchprop-2</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>carbonframepart-1</Uid>
+</InstancePath>
+<Position>0.19158204472754797 -0.16998088589050944 0.098383489948630998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>10inchprop-3</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>carbonframepart-1</Uid>
+</InstancePath>
+<Position>-0.090970762160756502 -0.16998088589051102 0.098383489948631053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>10inchprop-4</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>carbonframepart-1</Uid>
+</InstancePath>
+<Position>-0.23224716560491271 0.074717022785360632 0.098383489948630998</Position>
+<Axis>0 1.3560116450761682e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>10inchprop-5</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>carbonframepart-1</Uid>
+</InstancePath>
+<Position>-0.090970762160759056 0.31941493146123595 0.098383489948631053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>10inchprop-6</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="10inchprop" uid="10inchprop*:*Default" version="171">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="10inchprop.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035881071564639695</Mass>
+<CenterOfMass>0 0 0.0056328828115386285</CenterOfMass>
+<Inertia>5.1692500984057247e-08 1.0779029421151406e-05 1.0777458794289012e-05 0 0 -4.7082432336382075e-09</Inertia>
+</MassProperties>
+<GeometryFile name="10inchprop_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="carbonframepart" uid="carbonframepart*:*Default" version="130">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="carbonframepart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12317995070724587</Mass>
+<CenterOfMass>0.050316556403357471 0.074698117243016421 0.11244166383078048</CenterOfMass>
+<Inertia>0.0014814151905198421 0.0014814151488709861 0.0029540718255088292 2.1933093815035677e-09 -1.2663077618448931e-09 3.6068955608988418e-11</Inertia>
+</MassProperties>
+<GeometryFile name="carbonframepart_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
